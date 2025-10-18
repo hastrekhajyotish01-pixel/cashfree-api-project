@@ -1,0 +1,14 @@
+{
+  "name": "cashfree-vercel-api",
+  "version": "1.0.0",
+  "description": "Cashfree Order Creation API for Vercel Serverless Function",
+  "main": "api/create-order.js",
+  "scripts": {
+    "start": "node api/create-order.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2"
+  }
+}
